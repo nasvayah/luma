@@ -2,7 +2,7 @@ import lightFunctions as j
 import matplotlib.pyplot as plt
 import numpy as np
 
-photos = ['0_lamp.jpg', 'lamp_blue.jpg', 'lamp_green.jpg', 'lamp_red.jpg', 'lamp_white.jpg', 'lamp_yellow.jpg']
+photos = ['white_mercury.jpg', 'blue_tungsten.jpg', 'green_tungsten.jpg', 'red_tungsten.jpg', 'white_tungsten.jpg', 'yellow_tungsten.jpg']
 
 rgb, I0 = j.read_image(photos[0], 'graph1.png', 'ртутная лампа', 'белый лист')
 I1 = j.read_image(photos[1], 'graph2.png', 'лампа накаливания', 'синий лист')[-1]
